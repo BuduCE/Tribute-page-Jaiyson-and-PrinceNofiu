@@ -1,0 +1,15 @@
+.tribute-image{
+    margin-left:36%;
+    border-radius: 50%;
+    height: 80%;
+    width: 30%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+p{
+    font-size: larger; 
+    text-align: center;
+}

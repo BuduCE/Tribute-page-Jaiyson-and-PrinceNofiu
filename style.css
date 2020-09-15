@@ -1,0 +1,15 @@
+/*CSS mean cascading style sheet*/
+
+/*Head*/
+*{
+    background-color: darkgray;
+    text-align: center; 
+    
+}
+hr{
+    width:35%; color: black;
+}
+/*container*/
+
+
+/*Footer*/

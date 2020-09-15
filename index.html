@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!--The style here is an internal styling-->
+    <!--internal styling is more effective than external styling-->
+    <style>
+        /*Head*/
+        *{
+            background-color: rgb(194, 189, 189);
+        }
+        #sp{
+            color: rgb(37, 35, 35);
+        }
+    </style>
 </head>
+<!--for general styling, you are to use *{style to use}-->
 <body>
-    <p>Our tribute page</p>
+    <div id="under">
+        <!--When you have to style an id named sp, you would style it as #sp{style to use}-->
+        <p id="sp" style="color:rgb(46, 43, 43); ">"whatever you choose for a career path, remember the<br>struggles along the way are only meant to shape you<br>for your purpose"</p>
+        <!---->
+        <hr style="width: 50%; color: black; background-color: black; height: 2px; border-width: 0;">
+        <p style="font-size: 1.3em;">Actor and inspiration to many of us.</p>
+        <p>Read more <a href="" style="text-decoration: none;color: black;font-weight: 900;">here</a></p>
+    </div>
 </body>
 </html>
